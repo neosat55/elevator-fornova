@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "lib": ["ES2021"],
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
